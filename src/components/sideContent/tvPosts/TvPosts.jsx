@@ -31,7 +31,7 @@ const TvPosts = () => {
        .sort((a, b) => b.id - a.id);
    };
 
-   const filtered = filterNewsByMunicipio(["benevides", "pará"]);
+   const filtered = filterNewsByMunicipio(["bagre", "pará"]);
 
   const renderedItems = filtered.slice(-6);
   return (
