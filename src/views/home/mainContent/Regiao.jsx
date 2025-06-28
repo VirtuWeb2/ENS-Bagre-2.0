@@ -29,13 +29,13 @@ const Regiao = () => {
       .sort((a, b) => b.id - a.id);
   };
 
-  const filtered = filterNewsByMunicipio(["benevides", "pará"]);
+  const filtered = filterNewsByMunicipio(["bagre", "pará"]);
 
   return (
     <>
       <NewSection
         regionLink={"/search"}
-        regionTitle={"Notícias de Benevides"}
+        regionTitle={"Notícias de Bagre"}
         newsData={filtered}
       />
     </>
