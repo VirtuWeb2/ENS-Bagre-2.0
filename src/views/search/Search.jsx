@@ -67,7 +67,7 @@ const Search = () => {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Pesquisar | EN BENEVIDES</title>
+          <title>Pesquisar | EN Bagre</title>
         </Helmet>
       </HelmetProvider>
 
