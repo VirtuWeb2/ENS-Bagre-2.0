@@ -63,7 +63,7 @@ const Side = () => {
         </section>
       ))}
 
-      {pathname !== "/tv-en-benevides" && <TvPosts />}
+      {pathname !== "/tv-en-bagre" && <TvPosts />}
 
       <section className="catgorys">
         <Heading title={"Categorias"} />
