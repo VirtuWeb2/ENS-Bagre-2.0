@@ -30,7 +30,7 @@ const Hero = () => {
       .sort((a, b) => b.id - a.id);
   };
 
-  const filtered = filterNewsByMunicipio(["benevides", "pará"]);
+  const filtered = filterNewsByMunicipio(["bagre", "pará"]);
 
   return (
     <>
