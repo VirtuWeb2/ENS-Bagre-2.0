@@ -38,7 +38,7 @@ const Tv = () => {
       .sort((a, b) => b.id - a.id);
   };
 
-  const filtered = filterNewsByMunicipio(["benevides", "pará"]);
+  const filtered = filterNewsByMunicipio(["bagre", "pará"]);
 
   useEffect(() => {
     const filteredResults = filtered.filter((item) =>
@@ -68,7 +68,7 @@ const Tv = () => {
       <HelmetProvider>
         <Helmet>
           <title>TV | EN Bagre</title>
-          <meta property="og:title" content="TV É Notícia Benevides" />
+          <meta property="og:title" content="TV É Notícia Bagre" />
           <meta
             property="og:description"
             content="Tv de notícias Paraense, atualizado diariamente com notícias de todos os jornais convencionais e fontes seguras"
@@ -80,7 +80,7 @@ const Tv = () => {
       <main>
         <div className="container">
           <section className="mainContent tv ">
-            <Heading title={"TV EN BENEVIDES"} />
+            <Heading title={"TV EN BAGRE"} />
 
             <div className="live">
               <Iframe
