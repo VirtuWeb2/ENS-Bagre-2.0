@@ -67,7 +67,7 @@ const Tv = () => {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>TV | EN BENEVIDES</title>
+          <title>TV | EN Bagre</title>
           <meta property="og:title" content="TV É Notícia Benevides" />
           <meta
             property="og:description"
