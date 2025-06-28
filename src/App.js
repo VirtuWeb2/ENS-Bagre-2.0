@@ -56,7 +56,7 @@ const router = createBrowserRouter([
         element: <Search />,
       },
       {
-        path: "/tv-en-benevides",
+        path: "/tv-en-bagre",
         element: <Tv />,
       },
     ],
